@@ -3,7 +3,7 @@ function Calc(op, a, b) {
 }
 
 function Main(input) {
-  str = '';
+  let str = '';
 
   input.split('\n').forEach(elms => {
     const [a, op, b] = elms.split(' ');
@@ -14,4 +14,4 @@ function Main(input) {
   console.log(str.trim());
 }
 
-Main(require("fs").readFileSync("/dev/stdin", "utf8"));
+Main(require('fs').readFileSync('/dev/stdin', 'utf8'));
