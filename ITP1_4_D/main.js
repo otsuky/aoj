@@ -5,4 +5,4 @@ function Main(input) {
   console.log(Math.min(...array), Math.max(...array), sum);
 }
 
-Main(require("fs").readFileSync("/dev/stdin", "utf8"));
+Main(require('fs').readFileSync('/dev/stdin', 'utf8'));
