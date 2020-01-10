@@ -1,3 +1,4 @@
+// reduceでもっとうまいこと書けそう
 function Main(input) {
   for (const e of input.split('\n')) {
     const [h, w] = e.split(' ').map(Number);
